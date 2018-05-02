@@ -33,3 +33,14 @@ Deletes a file, no take backs.
 ### rmdir < directory >
 Removes a directory, no take backs.
 
+# Git Commands
+
+# git add .
+Makes git add all files to its watchlist
+
+# git commit -m
+Adds whatever was worked on to the master branch
+
+# git push
+Pushese
+
