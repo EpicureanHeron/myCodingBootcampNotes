@@ -33,6 +33,14 @@ Deletes a file, no take backs.
 ### rmdir < directory >
 Removes a directory, no take backs.
 
+### cp < file > < location >
+
+this copies file
+
+### mv < file > < location >
+
+moves file
+
 # Git Commands
 
 # git add .
@@ -64,3 +72,24 @@ Pull often!!!
 Git Kraken: GUI that shows the difference between versions (you can also do this on GitHub itself)
 
 Gitlab is another Git hub like website, Github and Gitlab are very simialir though you may have private things on gitlab cheaper
+
+# Cool Terminal Shortcuts
+
+## upkey
+Goes to the last command
+
+## tab key (while typing a file name)
+Autofills if it is unique
+
+## special directories
+
+~/ user directory
+
+../ one directory up aka parent directory
+
+./ current directory 
+
+/ root directory
+
+
+
