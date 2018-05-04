@@ -36,11 +36,31 @@ Removes a directory, no take backs.
 # Git Commands
 
 # git add .
-Makes git add all files to its watchlist
+Makes git add all files to its watchlist. Adds current version to inclusion. "." tells it to watch everything, but you can specifiy a file instead "index.html"
 
-# git commit -m
-Adds whatever was worked on to the master branch
+# git commit -m "Message"
+Adds whatever was worked on to the master branch, and uploads it
+
+## when do you commit?
+
+Commit whenever you get something working, commit then 
 
 # git push
-Pushese
+Pushes code to github
 
+# git clone
+If the repository starts on Github, it will pull it down onto your local machine. Only will need to clone once
+
+# git pull 
+Downloads freshest version of repo
+
+#git status
+Diagnostic, Incredibly useful
+
+## Good git rule:
+Pull first, then push your changes. 
+Pull often!!!
+
+Git Kraken: GUI that shows the difference between versions (you can also do this on GitHub itself)
+
+Gitlab is another Git hub like website, Github and Gitlab are very simialir though you may have private things on gitlab cheaper
