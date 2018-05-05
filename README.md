@@ -125,3 +125,12 @@ IF element has a ID and a Class, ID > class
 
 connect us with other files in our working directory
 
+Everything, is like, relative, man. So be careful with file paths. 
+
+../../ etc goes up multiple folder levles
+
+# Box Model
+
+Content, padding, border, margin
+
+padding { top, right, bottom, left}
