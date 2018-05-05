@@ -122,3 +122,6 @@ ID is individual items, one per page
 IF element has a ID and a Class, ID > class
 
 # Relative File Paths
+
+connect us with other files in our working directory
+
