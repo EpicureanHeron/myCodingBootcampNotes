@@ -20,5 +20,18 @@ h2 {
 
 .container {
     width: 1024px;
-    text-align: center;
+    margin: 0 auto;
+}
+
+#main-bio {
+    float: left;
+} 
+
+#contact-info {
+    float: left;
+}
+
+#bio-image {
+    float: left;
+    width: 200px;
 }
