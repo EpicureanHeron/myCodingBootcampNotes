@@ -91,5 +91,34 @@ Autofills if it is unique
 
 / root directory
 
+### HTML 
 
+Section  tag vs Div tag
 
+essentially the same thing accept for accessability 
+
+# General Tips of Class
+
+20 hours a week outside of class
+
+Roughly broken down 8 hours independent study
+
+12 hours on homework
+
+# CSS Notes 5/5/2018
+
+### Class
+
+notated with a "." so it looks like .classItem
+
+Class is a series of elements of which multiple can be on single page
+
+### ID
+
+notated with a "#" so it looks like #IDitem
+
+ID is individual items, one per page
+
+IF element has a ID and a Class, ID > class
+
+# Relative File Paths
