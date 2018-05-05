@@ -3,6 +3,11 @@ body {
     font-family: "Georgia",Times New Roman,Times,serif;
     margin: 0;
     padding: 0;
+    font-size: 1.5em
+}
+
+a {
+    color: #d21034;
 }
 
 header {
@@ -25,13 +30,16 @@ h2 {
 
 #main-bio {
     float: left;
+    width: 70%;
 } 
 
 #contact-info {
     float: left;
+    width: 30%;
 }
 
 #bio-image {
     float: left;
     width: 200px;
+    margin: 10px;
 }
