@@ -133,4 +133,29 @@ Everything, is like, relative, man. So be careful with file paths.
 
 Content, padding, border, margin
 
-padding { top, right, bottom, left}
+padding { top, right, bottom, left} Thinkg of it as trouble: Top Right Bottom Left ()
+
+# Floats
+
+default, every HTML elemented displayed in browser is governed by flow (think wrap-text options)
+
+This means html elements FORCE their adjacent elements
+
+block elements vs inline elements
+
+Floats probably need to be cleared, using the "clearfix hack" 
+
+```
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+```
+
+
+Layering with Z INdex
+
+Z-Index allows you to laywer elements, 
+css:
+z-index:2; vs z-index: 1; (the larger the value the closer to YOU (if you think of depth on a browser))
