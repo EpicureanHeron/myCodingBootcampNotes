@@ -159,3 +159,27 @@ Layering with Z INdex
 Z-Index allows you to laywer elements, 
 css:
 z-index:2; vs z-index: 1; (the larger the value the closer to YOU (if you think of depth on a browser))
+
+
+# 5/8/2018 Notes
+
+Homework will be due 5/12/2018
+it sounds like I will only be submitting 1 of the 2 projects, so probably the harder of the two and I can stop worrying about the first project
+
+Watch some videos about working with git in a team setting (only have used it for personal use previously, this could be a distraction if the concepts of team git)
+
+## Full Stack
+
+Everything from the front end to the back end 
+
+## CSS Positioning
+
+### Position: fixed 
+Not going to move (could use this on the HW footer)
+### Position: relative
+It is based on the closest parent element that specifies a position (whatever container)
+### position: absolute 
+A bit unclear concerning how this is different from fixed
+### position: static
+Falls wherever it falls on the page
+
