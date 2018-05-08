@@ -183,3 +183,4 @@ A bit unclear concerning how this is different from fixed
 ### position: static
 Falls wherever it falls on the page
 
+Check out Smashing  Magazine News Letter
