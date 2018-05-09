@@ -184,3 +184,38 @@ A bit unclear concerning how this is different from fixed
 Falls wherever it falls on the page
 
 Check out Smashing  Magazine News Letter
+
+Remember that last stylesheet is the most impactful (kinda?)
+
+## Some Other Stuff
+
+Section vs Div
+Section and article express more intent (they are semantic) but they are also containers just like div
+
+### HTML 5 Semantic elements
+
+...they are pretty much divs with better intent expressed through their usage EG, Header, Footer, Article, Aside, Details, Summary, etc
+
+But a lot of places still use div instead of these semantics tags
+
+### Chrome Dev Tools
+It rocks. It is super useful. Use it all the time. You can step through javascript, you can see what file and line is causing issues. You can edit CSS in the browser.
+
+CTRL + SHIFT + I is the short cut
+
+
+## ajax
+
+Asychonrous javascript in XML
+Requests to a server to get data back
+In the network tab
+
+## Battle of the browsers
+
+Webpages can render differently browser to browser
+
+CSS reset (https://meyerweb.com/eric/tools/css/reset/) this makes a "standard" of sorts to do things across the browsers, wipes out all the stupid inherent special styling within each browser
+
+Apply the Reset.css first and then apply your css. Most frameworks have something like this built in.
+
+CSS reset is important for creating browser-compatible websites, levels the playing field. THIS IS A COMMON FRONT END INTERVIEW QUESTION
