@@ -219,3 +219,11 @@ CSS reset (https://meyerweb.com/eric/tools/css/reset/) this makes a "standard" o
 Apply the Reset.css first and then apply your css. Most frameworks have something like this built in.
 
 CSS reset is important for creating browser-compatible websites, levels the playing field. THIS IS A COMMON FRONT END INTERVIEW QUESTION
+
+# Deploying code to Github
+
+Github provides hosting for static websites
+
+https://epicureanheron.github.io/
+
+Apparenlty I can hose a project using the github.io page I have. I am a big vague on details, but I am tired.
