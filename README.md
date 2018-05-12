@@ -227,3 +227,59 @@ Github provides hosting for static websites
 https://epicureanheron.github.io/
 
 Apparenlty I can hose a project using the github.io page I have. I am a big vague on details, but I am tired.
+
+https://help.github.com/articles/user-organization-and-project-pages/
+
+
+# 5/10/2018 Notes
+
+Overview: CSS Typography and Google Fonts, Pseudo-Classes, Twitter Bootstrap
+
+## CSS Typography
+
+line height should be 1.5 x the font
+
+font size-actually size. 16px is the min
+
+Line length, not a css property, 50-75 charagers per line on a desktop
+
+Letter spacing
+
+sans-serif vs serif, sans-serif doesn't have the serifs (tails and crap)
+
+## Google Fonts
+
+Really awesome, open source fonts https://fonts.google.com/
+
+also check out https://fontawesome.com/get-started for open source image thingies
+
+## Psuedo Classes
+
+Css has keywords that can be added to selectors. These highlight the special states of the selected elements
+
+```
+a:active { 
+    background-color: black
+}
+```
+
+I could add this to the homework
+
+: for psuedo class
+:: for psuedo element
+
+## Bootstrap
+
+It is super nice. Can just link to the bootstrap stuff out there. 
+
+Bootstrap apparenlty built by Twitter. That's cool.
+
+getbootstrap.com
+
+### Key boootstrap features
+
+Glyphicons 
+
+Navbars
+
+
