@@ -283,3 +283,177 @@ Glyphicons
 Navbars
 
 
+### 5/12/2018
+
+Agenda: Bootstrap CSS, media queries, and meta tag for viewports
+
+## Bootstrap high level recap:
+
+CDN library https://en.wikipedia.org/wiki/BootstrapCDN  ( content delivery network)
+
+CSS in the header
+
+bootstrap.js at the bottom of the page to make the components work (like drop down menus, etc)
+
+Going to focus on layout today
+
+span tag: used when glyyphicon but is more or less outdated
+
+## Very important stuff incoming
+
+Webpages are GRIDS focused around columns.
+
+for junior front end developers a graphic designer usually gives you a sketch and you turn into a webpage, a lot of times just focused on the PC vwersion of website, then you may be resonspible for the tablet and mobile designs. 
+
+Everything should be "gridable"
+
+Magic number for grids: 12 
+
+
+col-md-* is the column bread and butter for bootstrap
+
+sub columns and sub rows to break things down further
+
+<div class="container"> is the first part of the grid 
+<div class="row"> is next
+<div class="col-**-*"> is after
+
+You can do sub rows by putting another row inside of a and this new row has 12 divisions in it!!! <div class="col-**-*">
+<div class="row">
+    <div class="col-**-*"></div>
+</div>
+
+ </div>
+
+
+md and sm col does someting with the breakpoints (i think)
+
+We have class on 5/26/2018
+
+FERPA (Like hippa): How to get help:
+
+Live Chat on BCS
+
+Or BCS Live Ticket
+
+NOTE: First PROJECT: Use materializer
+
+
+## Media Queries
+
+Max of 5 breaktop: Desktop, Tablet Landscapt, Tablet Portrait, Mobile Land, Mobile Portrait
+
+Declare media queries LAST on your CSS
+
+Max vs min
+
+Max is probably the best, but be consistent with internal logic (don't flip flop between max and min)
+
+
+## viewport
+
+on this type of device I am going to see this device in this way
+
+Some high pixel density devices may display as a desktop version rather than a mobile version, so you can control it with viewport. Something with the meta tag it would allow it to scale up . Use this in conjucntion with media-queries
+
+# 5/15/2018 Joys of Javascript
+
+New teacher works at Target in the back end
+
+Nabeel
+
+## Javascript
+
+Rather than "stepping" through the code, we will be using logging
+
+## Variables
+
+```
+var name = "Snow white";
+var dwarfcount = 7;
+
+```
+lower case "true" and lowercase "false" are key word booleans in JS
+
+put javascript in the body
+
+```
+
+alert("HEY LISTEN");
+
+
+```
+
+is very aggresive , using 
+
+```
+
+log("Hey listen);
+
+```
+
+is better
+
+## Document Write
+
+``` 
+document.write("Whatever we want");
+
+```
+
+Just sort of writes straight to the page
+
+## If/Else Statements (conditional or control flows)
+
+```
+if( ldjfjdjkl ) {
+    alert("do it");
+}
+
+else if (somethingelse) {
+    alert("trying again");
+}
+
+else {
+    document.write("you don't party);
+}
+
+```
+
+You HAVE to have a an else with an if.
+
+## Types
+
+```
+"4" === 4
+
+```
+This is false, the triple = means it is comparing type (string, interger, etc)
+
+```
+"4" == 4
+
+```
+
+This ignores type, so it would be true. 
+
+
+Concatenation vs mathmetical addition
+
+You can add strings together ("5" + "5") = "55"
+
+and you can add numbers 5+5 = 10
+
+If you add types together such as "5" + 6 it will be default concatenate the differt types
+
+## Array
+
+BEGINS WITH 0
+
+```
+var zooAnimals = ["zebra", "rhino", "Giraffe", "owl"];
+```
+
+zooAnimals[2] = Giraffe
+
+
